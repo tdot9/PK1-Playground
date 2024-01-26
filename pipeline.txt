@@ -1,0 +1,58 @@
+[ERROR] Wrong result on promotion test
+Brn  kbnrpppPpppp                                PPP PPPPRNBQKBNR
+MPd7d8=N
+---your output--
+no
+invalid
+---exp. output--
+no
+no
+[ERROR] Wrong result on pawn capture test
+Brnbqkbnrpppppppp                                PPPPPPPPRNBQKBNR
+MPf2f3
+Mng8f6
+MPg2g3
+Mnf6e4
+MPf3g2
+MPf3g4
+MPf3xg4
+MPf3e4
+MPf3xe4
+---your output--
+no
+no
+no
+no
+no
+invalid
+invalid
+no
+---exp. output--
+no
+no
+no
+no
+no
+invalid
+invalid
+invalid
+invalid
+no
+[ERROR] Wrong result on check test
+B     rk  p   ppppq   b                   P Q N  P    PPP   R  K 
+MQd3d6
+Mrf8d8
+MQd6xd8
+Mbf6xd8
+---your output--
+no
+invalid
+invalid
+invalid
+invalid
+---exp. output--
+no
+no
+no
+yes
+no
